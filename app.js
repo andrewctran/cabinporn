@@ -11,7 +11,7 @@ $.ajax({
         	rand = Math.floor(Math.random() * 50);
         }
         var url = results.response.posts[rand].photos[0].original_size.url;
-        $('body').css('background-image', 'url('+url+')');
+        $('body').css('background', 'linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url('+url+')');
         console.log(url);
     }
 });
