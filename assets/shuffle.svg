@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="354px" height="400px" viewBox="0 0 354 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>refresh-light</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="refresh-light" sketch:type="MSLayerGroup" transform="translate(0.000000, -1.000000)" fill="#FFFFFF">
+            <path d="M338.796,210.654 C330.909,210.654 324.517,217.047 324.517,224.929 C324.517,306.271 258.345,372.447 176.998,372.447 C95.656,372.447 29.483,306.271 29.483,224.929 C29.483,148.408 88.058,85.344 162.722,78.133 L162.722,110.996 C162.722,116.095 165.447,120.808 169.859,123.358 C172.069,124.632 174.536,125.272 176.998,125.272 C179.464,125.272 181.925,124.633 184.134,123.358 L267.038,75.501 C271.458,72.953 274.175,68.241 274.175,63.14 C274.175,58.04 271.458,53.325 267.038,50.777 L184.134,2.913 C179.716,0.362 174.279,0.362 169.859,2.913 C165.447,5.461 162.722,10.177 162.722,15.276 L162.722,49.488 C72.296,56.786 0.931,132.655 0.931,224.928 C0.931,322.013 79.915,400.998 176.997,400.998 C274.085,400.998 353.068,322.013 353.068,224.928 C353.068,217.047 346.679,210.654 338.796,210.654 L338.796,210.654 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
