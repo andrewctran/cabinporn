@@ -17,6 +17,7 @@ $.ajax({
         document.getElementById("link-cover").href= post_url;
         document.getElementById("title").href= post_url;
         console.log(url);
+        console.log(caption);
 
         var temp = document.createElement("div");
         temp.innerHTML = caption;

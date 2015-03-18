@@ -2489,3 +2489,12 @@ ul.share-buttons a.embed {
   -webkit-animation-delay: 1.5s;
   -moz-animation-delay: 1.5s;
 }
+
+.reload img {
+  width: 22px;
+  height: 22px;
+}
+
+.reload img:hover {
+  -webkit-transform: scale(1.3);
+}
