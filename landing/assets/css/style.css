@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url(./assets/fonts/proxima-nova/proxima-nova-bold.eot);
+  src: url(./assets/fonts/proxima-nova/proxima-nova-bold.woff) format('woff'), 
+       url(./assets/fonts/proxima-nova/proxima-nova-bold.ttf) format('truetype'), 
+       url(./assets/fonts/proxima-nova/proxima-nova-bold.svg) format('svg');
+}
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url(./assets/fonts/proxima-nova/proxima-nova-regular.eot);
+  src: url(./assets/fonts/proxima-nova/proxima-nova-regular.woff) format('woff'), 
+       url(./assets/fonts/proxima-nova/proxima-nova-regular.ttf) format('truetype'), 
+       url(./assets/fonts/proxima-nova/proxima-nova-regular.svg) format('svg');
+}
+
+body {
+	color: #343433;
+	font-family: "Playfair Display", serif;
+  	font-size: 16px;
+  	line-height: 25px;
+  	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	height: 100%;
+	background: #ffffff;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+div {
+	display: block;
+}
+
+p {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+h1 {
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 60px;
+	margin: 0;
+	line-height: normal;
+	color: #343433;
+	-webkit-margin-before: 0.67em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	display: block;
+}
+
+h2 {
+	color: #47495b !important;
+	display: block;
+	font-size: 1.5em;
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+
+.wrapper {
+	position: relative;
+}
+
+.showcase {
+	margin: 0 auto 0 auto;
+	width: 1025px;
+	padding: 0 0 4% 0;
+	text-align: center;
+}
+
+.showcase p {
+	width: 80%;
+	margin: 0px auto;
+	font-size: 20px;
+	line-height: 1.5em;
+	margin-bottom: 50px;
+	color: #47495b !important;
+}
+
+.showcase h2 {
+	font-family: "Playfair Display", serif;
+	color: #47495b !important;
+	font-style: italic;
+	font-weight: normal;
+	margin: 1% 0 0 0;
+	font-size: 20px;
+}
+
+.showcase img {
+	height: 75px;
+}
+
+hr {
+	width: 25%;
+	margin: 4% auto;
+	border: none;
+	border-top: solid 1px #ccc;
+	box-sizing: content-box;
+	height: 0;
+	display: block;
+	-webkit-margin-before: 5em;
+	-webkit-margin-after: 5em;
+	-webkit-margin-start: auto;
+	-webkit-margin-end: auto;
+}
+
+.headline {
+	width: 150%;
+	height: 100px;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,0.65)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
+	opacity: 0.04;
+	position: absolute;
+	left: -50%;
+	top: 900px;
+}
+
+.showcase .macbook {
+	background: url(../img/macbook.png) top center no-repeat;
+	position: relative;
+	width: 1025px;
+	margin: 10% auto 2% auto;
+	padding-bottom: 590px;
+	background-size: 100%;
+	z-index: 33;
+}
+
+.showcase .macbook iframe {
+	position: absolute;
+	width: 1230px;
+	height: 775px;
+	border: solid 1px #000;
+	margin: 0px auto;
+	display: block;
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	top: -125px;
+	left: -101px;
+	border-radius: 5px;
+	-webkit-user-select: none;
+}
+
+.showcase .download {
+	padding: 1% 0;
+}
+
+.showcase .download a.btn {
+	font-family: 'Proxima Nova Bold';
+	border-radius: 50px;
+	padding: 15px 25px;
+	margin: 0 10px;
+	width: 300px;
+	background: none;
+	color: #47495b;
+	border: solid 1px #47495b;
+	letter-spacing: 2px;
+	-webkit-user-select: none;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	opacity: 1;
+	outline: none;
+	text-decoration: none;
+	position: relative;
+	transition: background-color 0.5s ease;
+}
+
+.showcase .download a.btn:hover {
+	background: #000;
+	color: #fff;
+	border: solid 1px #000;
+}
+
+.showcase .ftr {
+/*	font-family: 'Proxima Nova Regular';
+*/	font-size: 18px;
+}
+
+svg path {
+	fill: #3D464D;
+}
